@@ -10,18 +10,6 @@ The User Authentication System is a simple Java application that facilitates use
 - **Password Strength Validation:** Passwords must be at least 8 characters long and devoid of Turkish characters.
 - **Secure Password Storage:** Passwords are hashed using SHA-256 with a random salt.
 
-## Directory Structure
-
-.
-├── Main.java
-├── TwoFactorCodeGenerator.java
-├── UserAuthenticationSystem.java
-├── CustomCrypto.java
-├── users.txt
-├── passwords.txt
-├── two_factor_codes.txt
-└── README.md
-
 ## Classes and Files
 
 1. **Main.java:** Entry point of the application. Initializes and runs the UserAuthenticationSystem.
